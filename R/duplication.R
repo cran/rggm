@@ -4,7 +4,7 @@ function(n)
   m <- n * (n+1) / 2
   a <- diag(n)
   a[lower.tri(a, TRUE)] <- 1:m
-  a[upper.tri(a)] <- a[lower.tri(a)]
+  a[upper.tri(a)] <- t(a)[upper.tri(a)]
   
   a.vec <- as.vector(a)
 

@@ -13,8 +13,8 @@
 \tabular{rl}{
 Package: \tab rggm\cr
 Type: \tab Package\cr
-Version: \tab 1.0.0\cr
-Date: \tab 2006-10-30\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2006-11-17\cr
 License: \tab GPL 2 and newer\cr
 }
   You can fit a Gaussian concentration matrix model with \code{rob.fitConGraph}.
